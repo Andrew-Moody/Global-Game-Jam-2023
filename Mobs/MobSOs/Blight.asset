@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8e4300b1f81c3468e21d58dc6ffa36, type: 3}
+  m_Name: Blight
+  m_EditorClassIdentifier: 
+  ID: 103
+  MobName: Ent
+  Sprite: {fileID: 1875559648061015295, guid: f1a3b36398d82414ea62e7a429dee45e, type: 3}
+  AnimController: {fileID: 22100000, guid: 2b60241767d2f0340a7567e37b7c5bca, type: 2}
+  Size: 0.5
+  Speed: 1
+  Hostile: 1
+  Luck: 1
+  Health: 20
+  MaxHealth: 20
+  AttackCoolDown: 2
+  AttackDamage: 10
+  MeleeRange: 1
+  ProjectileSO: {fileID: 11400000, guid: 9691c6d517b632645b4ae3ab2f1a2c4f, type: 2}
